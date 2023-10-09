@@ -22,7 +22,7 @@ public class DiceArray extends Dice{
         System.out.println("\nSum = "+s);
         System.out.println("\nAntal gange 6 blev kastet: "+antalSeksere);
     }
-
+//testtest
     static int sum(int[] arr) {
         int result = 0;
         for (int i=0;i<arr.length;i++) result=result+arr[i];
