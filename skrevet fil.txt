@@ -1,5 +1,5 @@
-person0 m 55
-person1 k 54
-person2 m 18
-person3 m 55
-person4 m 43
+person0 k 59
+person1 k 38
+person2 m 49
+person3 k 15
+person4 k 12

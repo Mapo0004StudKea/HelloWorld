@@ -13,11 +13,13 @@ public class PolynomiumApp {
         Polynomium poly2 = new andenGradsPolynomium(0, 0, 0);
         System.out.println(poly2);
         System.out.println("f(x)="+poly2.f(0));
-
+/*
         System.out.println("Et tredjegradspolynomium bliver udregnet med følgende formel: "+"f(x)=a*x^3+b*x^2+c*x+d\n");
         Polynomium poly3 = new trejdeGradsPolynomium(0, 0, 0, 0);
         System.out.println(poly3);
         System.out.println("f(x)="+poly3.f(0));
+
+ */
     }
 }
 
@@ -73,7 +75,7 @@ class andenGradsPolynomium extends Polynomium {
         return "a værdi: "+a+" b værdi: "+b+" c værdi: "+c;
     }
 }
-
+/*
 class trejdeGradsPolynomium extends Polynomium {
     int a; int b; int c; int d;
     trejdeGradsPolynomium (int A, int B, int C, int D) {
@@ -99,3 +101,4 @@ class trejdeGradsPolynomium extends Polynomium {
         return "a værdi: "+a+" b værdi: "+b+" c værdi: "+c+" d værdi "+d;
     }
 }
+*/
