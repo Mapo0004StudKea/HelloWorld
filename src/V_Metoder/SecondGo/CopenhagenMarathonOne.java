@@ -12,7 +12,7 @@ public class CopenhagenMarathonOne {
         int deltagere = scanner.nextInt();
         scanner.nextLine();
 
-        for (int i=1;i<deltagere;i++) {
+        for (int i=0;i<deltagere;i++) {
             System.out.println("Please write down the participants names: ");
             String navn = scanner.nextLine();
 
