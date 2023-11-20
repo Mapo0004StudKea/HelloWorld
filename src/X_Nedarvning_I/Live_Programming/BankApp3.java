@@ -23,7 +23,7 @@ class Indlaan extends Account {
         super(ow, ir);
     }
 
-    void withdraw(double amount){
+    public void withdraw(double amount){
         if (balance>=amount)
             super.withdraw(amount);
         else
@@ -40,11 +40,11 @@ class Hojrente extends Account {
         releaseDate=rd;
     }
 
-    void deposit(double amount) {
+    public void deposit(double amount) {
         System.out.println("Du kan ikke sætte penge ind på denne konto");
     }
 
-    void withdraw(double amount){
+    public void withdraw(double amount){
         if (releaseDate.isAfter(LocalDate.now()))
             System.out.println("Du kan først hæve efter "+releaseDate);
         else

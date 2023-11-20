@@ -27,7 +27,7 @@ class Account {
     protected double interestRate;    // Årlig rente i %
     protected ArrayList<Transaction> transactions=new ArrayList<Transaction>();
 
-    Account(String ow, double ir){
+    public Account(String ow, double ir){
         noOfAccounts++;
         accountNo=noOfAccounts;
         owner=ow;
@@ -35,17 +35,17 @@ class Account {
         balance=0;
     }
 
-    void deposit(double amount){
+    public void deposit(double amount){
         balance=balance+amount;
         transactions.add(new Transaction("Indsat", amount, balance));
     }
 
-    void withdraw(double amount){
+    public void withdraw(double amount){
         balance=balance-amount;
         transactions.add(new Transaction("Hævet", amount, balance));
     }
 
-    void anualInterest(){
+    public void anualInterest(){
         double amount=balance*interestRate/100;
         balance=balance+amount;
         transactions.add(new Transaction("Renter", amount, balance));

@@ -15,6 +15,7 @@ public class StudentList2 {
             String[] bidder = linje.split(",");
             Student s = new Student();
             s.id = bidder[0].substring(0,8);
+            s.Email = bidder[0].substring(0,20);
             s.fornavn = bidder[1];
             s.efternavn = bidder[2];
             list.add(s);
@@ -42,10 +43,11 @@ class Student implements Comparable<Student>{
     String fornavn;
     String efternavn;
     String id;
+    String Email;
 
     @Override
     public String toString() {
-        return id+" "+fornavn+" "+efternavn;
+        return id+" "+Email+" "+fornavn+" "+efternavn;
     }
 
     @Override

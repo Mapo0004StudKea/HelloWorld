@@ -4,6 +4,9 @@ package XVIIII_Løsninger;
 // Bj�rn Christensen, 2/10-2020
 
 /*
+import java.time.LocalDate;
+import java.util.Random;
+
 public class BankApp3 {
 	public static void main(String[] args) {
 		Account k1=new Account("Bob", 0.5);
@@ -42,7 +45,7 @@ class Indlaan extends Account {
 		super(ow, rate);
 	}
 	
-	void withdraw(double amount) {
+	public void withdraw(double amount) {
 		if (balance>=amount) {
 			balance=balance-amount;
 		} else {
@@ -60,7 +63,7 @@ class Kredit extends Account {
 		creditLimit=-limit;
 	}
 	
-	void withdraw(double amount) {
+	public void withdraw(double amount) {
 		if (balance-amount>=creditLimit) {
 			balance=balance-amount;
 		} else {
@@ -84,11 +87,11 @@ class HoejrenteKonto extends Account {
 		releaseDate=LocalDate.of(yy,mm,dd);
 	}
 	
-	void deposit(double amount) {
+	public void deposit(double amount) {
 		System.out.println("Det er ikke muligt at indsætte på denne konto");
 	}
 	
-	void withdraw(double amount) {
+	public void withdraw(double amount) {
 		LocalDate today=LocalDate.now();
 		if (today.isBefore(releaseDate)) {
 			System.out.println("Saldo bundet indtil "+releaseDate);
@@ -107,7 +110,7 @@ class MilionaerKonto extends Account {
 		super(ow, rate);
 	}
 	
-	void anualInterest() {
+	public void anualInterest() {
 		int winner=generator.nextInt(100000)+1;					// tal i [1;100000]
 //		int winner=generator.nextInt(5)+1;					// tal i [1;100000]
 		if (accountNo==winner) balance=balance+jackpot;
@@ -123,7 +126,7 @@ class BoerneOpsparing extends Account {
 		releaseDate=LocalDate.of(yy+18,mm,dd);
 	}
 	
-	void withdraw(double amount) {
+	public void withdraw(double amount) {
 		LocalDate today=LocalDate.now();
 		if (today.isBefore(releaseDate)) {
 			System.out.println("Saldo bundet indtil "+releaseDate);
@@ -133,5 +136,7 @@ class BoerneOpsparing extends Account {
 	}
 }
 
+
  */
+
 
