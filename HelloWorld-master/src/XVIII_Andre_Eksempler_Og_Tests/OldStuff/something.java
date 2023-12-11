@@ -4,7 +4,6 @@ package XVIII_Andre_Eksempler_Og_Tests.OldStuff;
 public class something {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
         //int t = 0;
         //double x;
         //while (t < 10) {

@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Julegaver {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
 
         Scanner input = new Scanner(System.in);
         System.out.println("Indtast antal gaver Anne får.");

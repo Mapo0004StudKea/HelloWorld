@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Afstand {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
         System.out.println("indtast fire tal for to koordinator.");
         Scanner input = new Scanner(System.in);
         //forkortet udgave med specifikke tal

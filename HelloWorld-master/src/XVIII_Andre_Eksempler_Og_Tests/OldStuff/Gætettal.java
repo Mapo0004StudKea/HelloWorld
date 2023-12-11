@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class Gætettal {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
         Scanner input = new Scanner(System.in);
 
         int Etage = (int) (Math.random()*100+1);

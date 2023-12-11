@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class UseInput {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
         System.out.println("Hej! Hvad hedder du?");
 
         Scanner input = new Scanner(System.in);
