@@ -3,7 +3,7 @@ package III_Betingelser.II_III_III_Opgaver;
 import java.lang.Math;
 
 public class MathRandom {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int max = 100;
         int min = 1;
         double range = max - min + 1;
